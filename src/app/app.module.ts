@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SquareComponent } from './square/square.component';
 import { BoardComponent } from './board/board.component';
+import { RouterModule } from '@angular/router';
+import { NbThemeModule, NbSidebarModule, NbLayoutModule, NbButtonModule} from '@nebular/theme';
+import { routes } from '@nebular/auth';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,12 @@ import { BoardComponent } from './board/board.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(routes, { useHash: true }),
+    NbThemeModule.forRoot({name : 'cosmic'}),
+    NbButtonModule,
+    NbLayoutModule,
+    NbSidebarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

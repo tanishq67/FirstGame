@@ -1,8 +1,8 @@
-<h1>current player {{player}}</h1>
+<h1>Current Player: {{player}}</h1>
 
-<button (click)='newgame()'>Start</button>
+<button nbButton outline status="danger" (click)='newgame()'>Start</button>
 
-<h2 *ngIf="win">Hooray! Player {{win}} have won the game!!!</h2>
+<h2 *ngIf="win">YeaH! Player {{win}} won the game!!!</h2>
 
 <main>
     <app-square
