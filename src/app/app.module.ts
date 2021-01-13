@@ -8,6 +8,8 @@ import { BoardComponent } from './board/board.component';
 import { RouterModule } from '@angular/router';
 import { NbThemeModule, NbSidebarModule, NbLayoutModule, NbButtonModule} from '@nebular/theme';
 import { routes } from '@nebular/auth';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { routes } from '@nebular/auth';
     NbThemeModule.forRoot({name : 'cosmic'}),
     NbButtonModule,
     NbLayoutModule,
-    NbSidebarModule
+    NbSidebarModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
