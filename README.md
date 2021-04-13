@@ -1,8 +1,9 @@
 # TicTacToe
 
-![image](https://user-images.githubusercontent.com/52757132/114538681-42bf4180-9c71-11eb-91dc-422a1b85c852.png)
-![image](https://user-images.githubusercontent.com/52757132/114538746-523e8a80-9c71-11eb-870f-0dbacdf07f71.png)
-![image](https://user-images.githubusercontent.com/52757132/114538788-5e2a4c80-9c71-11eb-8836-f7d046391dee.png)
+![image](https://user-images.githubusercontent.com/52757132/114581397-4cf73500-9c9d-11eb-8462-328973e098fc.png)
+![image](https://user-images.githubusercontent.com/52757132/114581534-6a2c0380-9c9d-11eb-93d8-8b84fafd8323.png)
+![image](https://user-images.githubusercontent.com/52757132/114581619-7ca63d00-9c9d-11eb-9100-664ee50f50f3.png)
+
 
 
 
