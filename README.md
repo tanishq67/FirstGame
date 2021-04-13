@@ -1,8 +1,9 @@
 # TicTacToe
 
-![image](https://user-images.githubusercontent.com/52757132/114538414-012e9680-9c71-11eb-8211-d4d273bd0e26.png)
-![image](https://user-images.githubusercontent.com/52757132/114538475-0ee41c00-9c71-11eb-9372-acb76cb061d2.png)
-![image](https://user-images.githubusercontent.com/52757132/114538542-215e5580-9c71-11eb-9684-2fa6e9ebf2c0.png)
+![image](https://user-images.githubusercontent.com/52757132/114538681-42bf4180-9c71-11eb-91dc-422a1b85c852.png)
+![image](https://user-images.githubusercontent.com/52757132/114538746-523e8a80-9c71-11eb-870f-0dbacdf07f71.png)
+![image](https://user-images.githubusercontent.com/52757132/114538788-5e2a4c80-9c71-11eb-8836-f7d046391dee.png)
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
